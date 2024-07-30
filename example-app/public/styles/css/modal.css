@@ -1,0 +1,34 @@
+.warmest-body-modal,
+.waremst-modal-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.warmest-body-modal {
+  flex-direction: column;
+  width: 100%;
+}
+
+.modal-body-input {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.waremst-modal-footer button {
+  width: min-content;
+}
+
+
+@media screen and (max-width: 1199px) {
+  .waremst-modal-footer {
+    flex-direction: column-reverse;
+  }
+  .waremst-modal-footer button {
+  width: 100%;
+  }
+  .waremst-modal-footer span {
+    text-align: center;
+  }
+}
